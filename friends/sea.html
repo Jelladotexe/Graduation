@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my bestie</title>
+    <link rel="stylesheet" href="sea.css">
+</head>
+<body>
+    <header>
+        <h1>อันดาจะขอเขียนไว้รวมๆกันนะ ทำไม่ไหวจริงๆ จะเรียงชื่อตามตัว (ก-ฮ) นะ ไม่ต้องน้อยใจ รักทุกคนเท่ากัน ( ｡ •̀ ᴖ •́ ｡)</h1>
+    </header>
+    <main>
+        <section class="main-friend-img">
+            <div class="img-container">
+                <img src="/Imgs/sea/dew.jpg">
+                <div class="square">
+                    <p>This is Dew</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/mp.jpg">
+                <div class="square">
+                    <p>This is Mangpor</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/nene.jpg">
+                <div class="square">
+                    <p>This is Nene</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/unn.jpg">
+                <div class="square">
+                    <p>This is Unn</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Our memory</h2>
+    </footer>
+    <script>
+        const containers = document.querySelectorAll('.img-container');
+
+        containers.forEach((container)=>{
+            container.addEventListener('click',()=>{
+                container.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

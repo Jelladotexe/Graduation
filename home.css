@@ -1,6 +1,11 @@
 body{
-    background-color: rgb(35, 46, 56);
-    color: #c3d1df;
+    position: relative;
+    background-image: url('/Imgs/bg-home.png');
+    background-color: #232e38;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #fffbeb;
 }
 h1{
     margin-top: 5vh;
@@ -47,18 +52,19 @@ h1{
     transition: 0.5s;
     transition-property: box-shadow;
 
-    background: rgb(139, 197, 255);
-    box-shadow: 0 0 25px rgb(18, 148, 255);
+    background: rgb(202, 228, 255);
+    box-shadow: 0 0 25px rgb(244, 250, 255);
     margin-top: 10px;
 
 
     cursor: pointer;
 }
 .home-btn:hover{
-  box-shadow: 0 0 5px rgb(0,140,255),
+    background: rgb(169, 210, 255);
+    box-shadow: 0 0 5px rgb(0,140,255),
               0 0 25px rgb(0,140,255),
-              0 0 50px rgb(255, 230, 0),
-              0 0 100px rgb(0,140,255);
+              0 0 50px rgb(255, 255, 255),
+              0 0 100px rgb(211, 235, 255);
 }
 
 .gotonext{
