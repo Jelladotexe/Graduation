@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bio.css">
+</head>
+<body>
+    <header>
+        <div class="h1-flexbox">
+            <h1>อันดาจะขอเขียนไว้รวมๆกันนะ ทำไม่ไหวจริงๆ จะเรียงชื่อตามตัว (ก-ฮ) นะ ไม่ต้องน้อยใจ รักทุกคนเท่ากัน ( ｡ •̀ ᴖ •́ ｡)</h1>
+        </div>
+        
+    </header>
+    <main>
+        <section class="main-friend-img">
+            <div class="img-container">
+                <img src="/Imgs/sea/dew.jpg">
+                <div class="square">
+                    <p>This is Gigi</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/mp.jpg">
+                <div class="square">
+                    <p>This is ปราย</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/nene.jpg">
+                <div class="square">
+                    <p>This is เค้ก</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/Imgs/sea/unn.jpg">
+                <div class="square">
+                    <p>This is พลอย</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="h2-flexbox">
+            <h2>Our memories</h2>
+        </div>
+        
+    </footer>
+    <script>
+        const containers = document.querySelectorAll('.img-container');
+
+        containers.forEach((container)=>{
+            container.addEventListener('click',()=>{
+                container.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
