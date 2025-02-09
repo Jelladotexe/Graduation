@@ -95,3 +95,11 @@ body{
     margin-bottom: 200px;
     opacity: 0;
 }
+
+.smaller{
+    width: 250px;
+    height: auto;
+}
+.downabit{
+    margin-top: 50px;
+}

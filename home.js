@@ -14,11 +14,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
         else if(nameInput === "ผองเพื่อนออกทะเล" && codeInput === "431"){
             window.location.href = '/friends/sea.html';
         }
-        else if(nameInput === "เจอกันทั้งเทอม" && codeInput === "ฮันนี้"){
-            window.location.href = '/friends/honey.html';
-        }
-        else if(nameInput === "ตี้อาวี" && codeInput === "ลูกพี่"){
-            window.location.href = '/friends/rov.html';
+        else if(nameInput === "ไว้พบกันใหม่" && codeInput === "6301"){
+            window.location.href = '/friends/classmate.html';
         }
         else{
             alert("ใส่ดีๆคั้บน้อง");
